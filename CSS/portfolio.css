@@ -9,6 +9,16 @@
 }
 
 /* shared style */
+/* .text-center{
+    text-align: center;
+} */
+ main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+ }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -23,6 +33,13 @@
     padding: 18px 35px;
     color: white;
     border-radius: 5px;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
 }
 /* header styles */
 .header{
@@ -57,6 +74,11 @@ nav li a{
     text-decoration: none;
 
   }
+  /* main styling */
+  main{
+    max-width: 1140max;
+    margin: 0px 250px;
+  }
   /* banner styles */
   .banner-content{
     max-width: 580px;
@@ -76,4 +98,32 @@ nav li a{
     }
     .banner-pro-pic{
         width: 500px;
+    }
+    /* about styling */
+    .about{
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px 150px;
+        
+    }
+    .about-items{
+     display: flex;
+     justify-content: space-around;
+    }
+         
+    .item-description{
+        font-weight: 600;
+    }
+    /* SKILLS SEC STYLES */
+    .section-description{
+        text-align: center;
+    }
+    .skill-container{
+        display: flex;
+        gap: 24px;
+    }
+    .skill{
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0px 6px 5px 0px #000000;
     }
